@@ -14,7 +14,7 @@ export class ProductComponent implements OnInit {
 
   products:Product[] =[];
   dataLoaded=false;
-  
+  //a
   constructor(private productServise:ProductService) { }
 
   ngOnInit(): void { 
